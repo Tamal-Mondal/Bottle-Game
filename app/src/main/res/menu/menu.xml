@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item app:showAsAction="always"
+    android:icon="@drawable/menuicon"
+        android:title="main">
+
+        <manu>
+            <item android:title="About Us"
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                app:showAsAction="never"/>
+
+            <item android:title="Reset"
+                android:id="@+id/reset"
+                android:icon="@drawable/reset"
+                app:showAsAction="never"/>
+
+            <item android:title="Exit"
+                android:id="@+id/exit"
+                android:icon="@drawable/exit"
+                app:showAsAction="never"/>
+
+            <item android:title="Stop"
+                android:id="@+id/stop"
+                android:icon="@drawable/exit"
+                app:showAsAction="never"/>
+        </manu>
+
+</item>
+
+</menu>

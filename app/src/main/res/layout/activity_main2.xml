@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user_administrator.myapplication.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="NAME : "/>
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="200dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="DEPT. : "/>
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="200dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="ROLL NO. : "/>
+
+            <EditText
+                android:id="@+id/et5"
+                android:layout_width="200dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="COLLEGE : "/>
+
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="200dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="YEAR : "/>
+
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="200dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:id="@+id/bt1"
+            android:text="SUBMIT"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="submit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

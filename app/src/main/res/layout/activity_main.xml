@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user_administrator.myapplication.MainActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/t2"
+                        android:hint="Enter The 1st No"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/t3"
+                        android:hint="Enter The 2nd No"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/t4"
+                        android:hint="Answer"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="+"
+                        android:id="@+id/b2"
+                        android:onClick="plus"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="-"
+                        android:id="@+id/b3"
+                        android:onClick="mine"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="*"
+                        android:id="@+id/b4"
+                        android:onClick="mul"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="/"
+                        android:id="@+id/b5"
+                        android:onClick="div"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="New Activity"
+                            android:id="@+id/b6"
+                            android:onClick="newact"
+                            android:layout_gravity="center"/>
+
+                        <!--    <Button
+                                android:layout_width="100dp"
+                                android:layout_height="50dp"
+                                android:text="Database"
+                                android:id="@+id/b7"
+                                android:onClick="newact"
+                                android:layout_gravity="center"/>   -->
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Database"
+                            android:id="@+id/b8"
+                            android:onClick="data"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Life Cycle"
+                            android:id="@+id/b9"
+                            android:onClick="life"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Login"
+                            android:id="@+id/b10"
+                            android:onClick="reg"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="GamePage"
+                            android:id="@+id/b11"
+                            android:onClick="game"
+                            android:layout_gravity="center"/>
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Blink"
+                            android:id="@+id/b12"
+                            android:onClick="blink"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Sensor"
+                            android:id="@+id/b13"
+                            android:onClick="sense"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+</RelativeLayout>
